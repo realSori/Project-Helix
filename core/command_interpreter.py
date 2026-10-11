@@ -13,6 +13,10 @@ PATTERNS = [
         re.compile(r"^(?:crie|criar|cria)\s+um\s+arquivo\s+chamado\s+(.+)$", re.IGNORECASE),
         create_file,
     ),
+    (
+        re.compile(r"^(?:abra|abrir|execute|executar|rodar|)\s+o\s+arquivo|programa|app|aplicativo\s+(.+)$", re.IGNORECASE),
+        
+    )
 ]
 
 
